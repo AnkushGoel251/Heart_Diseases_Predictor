@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='stylesheets/positive.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictor</title>
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+    <h1>Congrats! ,You have low chances of heart diseases</h1>
+    <h2>Follow these advice and keep having regular checkups for better health</h2>
+    <h3>Diet Recommendation :- </h3>
+    <ul>
+      <li>Eat a variety of fruits and vegetables: Aim for at least five servings of fruits and vegetables per day. They are rich in vitamins, minerals, and antioxidants that support heart health.</li>
+      <li>Choose whole grains: Opt for whole grain products like whole wheat bread, brown rice, and oats. They are high in fiber and can help lower cholesterol levels.</li>
+      <li>Include healthy fats: Consume sources of healthy fats such as avocados, nuts, seeds, and fatty fish like salmon. These fats contain omega-3 fatty acids that can help reduce the risk of heart disease.</li>
+    </ul>
+    <h3>Exercise advice :-</h3>
+    <ul>
+      <li>Aerobic exercises: Engage in aerobic activities such as brisk walking, jogging, cycling, swimming, or dancing. Aim for at least 150 minutes of moderate-intensity aerobic exercise per week.</li>
+      <li>Strength training: Include strength training exercises at least twice a week. It helps build muscle, improve metabolism, and support overall cardiovascular health.</li>
+      <li>Find activities you enjoy: Choose physical activities that you genuinely enjoy. It increases the likelihood of sticking to a regular exercise routine.</li>
+    </ul>
+    <a href="{{ url_for('home') }}" class="button">Check Again</a>
+  </div>
+  </div>
+
+</body>
+</html>
