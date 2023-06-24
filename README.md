@@ -1,5 +1,5 @@
 # Heart_Diseases_Predictor
-Check if you have potential risk of developing heart diseases using this application based on Logistics Regression Machine learning model.
+Check if you have potential risk of developing heart diseases using this application based on Logistics Regression Machine learning model with model accuracy of 86.88 % .
 
 ## Preview
 ![Screenshot_20230624_061618](https://github.com/AnkushGoel251/Heart_Diseases_Predictor/assets/77546629/dd054917-1683-41a2-9690-23105d7d74f2)
